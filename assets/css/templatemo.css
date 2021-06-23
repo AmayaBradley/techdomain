@@ -48,10 +48,10 @@ p, a {font-weight: 400;}
   margin-left: -75px;
 }
 /* Main Nav */
-#main_nav .nav-item .nav-link:hover {color: #fff;}
+#main_nav .nav-item .nav-link:hover {color: black;}
 /* Home */
 #index_banner {
-  background-image: url('./../img/tech.jpg');
+  background-image: url('./../img/TECH DORMAIN WEB-01.png');
   background-position: center center; background-size: cover;
   height: 100%;
   min-height: 60vh;
@@ -62,7 +62,7 @@ p, a {font-weight: 400;}
 }
 #index_banner .carousel-control-prev i,
 #index_banner .carousel-control-next i {
-  color:#0083a9 !important;
+  color:black !important;
   text-decoration: none;
   font-size: 4em;
 }
@@ -72,6 +72,7 @@ p, a {font-weight: 400;}
 #index_banner .carousel-indicators li,
 #index_banner .carousel-indicators.active {
   background-color: #0083a9 !important;
+
 }
 .service-wrapper .service-footer {
   max-width: 720px;
@@ -214,4 +215,8 @@ footer a.text-light:hover {
   background-color:#0083a9;
   color: white;
   text-align: center;
+}
+  p {
+  text-decoration-color: black;
+  color: black;
 }

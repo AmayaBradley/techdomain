@@ -6,9 +6,9 @@
  */
 /* line 1, src/assets/scss/_root.scss */
 :root {
-  --bs-blue: #0083a9;
-  --bs-blue: #0083a9;
-  --bs-blue: #0083a9;
+  --bs-blue: #79868c;
+  --bs-blue: #79868c;
+  --bs-blue: #79868c;
   --bs-pink: #d63384;
   --bs-red: #dc3545;
   --bs-orange: #fd7e14;
@@ -19,8 +19,8 @@
   --bs-white: #fff;
   --bs-gray: #6c757d;
   --bs-gray-dark: #343a40;
-  --bs-primary: #0083a9;
-  --bs-secondary: #0083a9;
+  --bs-primary: #79868c;
+  --bs-secondary: #79868c;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
   --bs-warning: #ffc107;
@@ -85,11 +85,13 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   margin-bottom: 0.5rem;
   font-weight: 500;
   line-height: 1.2;
+
 }
 
 /* line 108, src/assets/scss/_reboot.scss */
 h1, .h1 {
   font-size: calc(1.375rem + 1.5vw);
+  
 }
 
 @media (min-width: 1200px) {
@@ -245,13 +247,13 @@ sup {
 
 /* line 261, src/assets/scss/_reboot.scss */
 a {
-  color: #0083a9;
+  color: #79868c;
   text-decoration: underline;
 }
 
 /* line 265, src/assets/scss/_reboot.scss */
 a:hover {
-  color: #0083a9;
+  color: #79868c;
 }
 
 /* line 277, src/assets/scss/_reboot.scss */
@@ -4068,13 +4070,13 @@ fieldset:disabled .btn {
 
 /* line 65, src/assets/scss/_buttons.scss */
 .btn-outline-primary {
-  color: #4232c2;
+  color: black;
   border-color: #4232c2;
 }
 
 /* line 85, src/assets/scss/mixins/_buttons.scss */
 .btn-outline-primary:hover {
-  color: #f6f9fe;
+  color: black;
   background-color: #4232c2;
   border-color: #4232c2;
 }
@@ -4108,7 +4110,7 @@ fieldset:disabled .btn {
 
 /* line 65, src/assets/scss/_buttons.scss */
 .btn-outline-secondary {
-  color: #6266ea;
+  color: black;
   border-color: #6266ea;
 }
 
@@ -9505,7 +9507,7 @@ fieldset:disabled .btn {
 
 /* line 50, src/assets/scss/mixins/_utilities.scss */
 .text-secondary {
-  color: #0083a9 !important;
+  color: #79868c !important;
 }
 
 /* line 50, src/assets/scss/mixins/_utilities.scss */
